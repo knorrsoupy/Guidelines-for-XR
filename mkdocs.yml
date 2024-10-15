@@ -1,0 +1,56 @@
+site_name: XR Handbook
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to Dark Mode
+      primary: black
+      accent: grey
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to Light Mode
+      primary: black
+      accent: '#546E7A'
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/knorrsoupy/
+    - icon: fontawesome/solid/link
+      link: https://knorrsoupy.vercel.app/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/knorrsoupy/
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
