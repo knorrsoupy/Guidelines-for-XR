@@ -29,6 +29,15 @@ theme:
   font:
     text: Roboto Mono
     code: Roboto Mono
+nav:
+  - Introduction: index.md
+  - Design Process: Design-Process.md
+  - Virtual Reality: Virtual-Reality.md
+  - Augmented Reality: Augmented-Reality.md
+  - Mixed Reality: Mixed-Reality.md
+  - Unity Engine: Unity-Engine.md
+  - Extra Stuff: Extra-Stuff.md
+  - Resources: Resources.md
 
 extra:
   social:
@@ -38,6 +47,9 @@ extra:
       link: https://knorrsoupy.vercel.app/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/knorrsoupy/
+  generator: false
+
+copyright: Made by Souparna with ❤️
 
 markdown_extensions:
   - attr_list
@@ -54,3 +66,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.snippets
+plugins:
+  - glightbox
+
+  
