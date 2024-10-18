@@ -9,7 +9,7 @@ Some `code sd;lasd` goes here
 
 ### Plain Code block
 
-a plane odeblock:
+a plane codeblock:
 
 ```
 qewq[wepkqr[pqk
